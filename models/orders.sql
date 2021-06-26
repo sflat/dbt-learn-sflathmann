@@ -8,4 +8,3 @@ payments as (
 
 select o.ORDER_ID, o.CUSTOMER_ID, p.AMOUNT from orders o
 left join payments p on p.ORDERID = o.ORDER_ID
-;
